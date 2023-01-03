@@ -1,6 +1,5 @@
-#root {
-    background-color: blue;
-    margin-left: 200px;
+* {
+    box-sizing: border-box;
 }
 
 @media (min-width: 576px) { }

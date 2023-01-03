@@ -5,14 +5,14 @@ import Footer from '../components/Footer'
 
 function Home() {
   return (
-    <div className="content">
+    <>
       <Header />
       <main>
         <Banner />
         <HousingsList />
       </main>
       <Footer />
-    </div>
+    </>
   )
 }
 

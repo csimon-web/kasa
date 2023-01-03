@@ -10,6 +10,7 @@ import Home from './pages/Home'
 import AboutUs from './pages/AboutUs'
 import Housing from './pages/Housing'
 import NoMatch from './pages/NoMatch'
+import './styles/index.css'
 
 const router = createBrowserRouter([
   {
