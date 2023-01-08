@@ -1,16 +1,24 @@
-// import logo from '../../assets/logo512.png'
+import PropTypes from 'prop-types'
 import '../../styles/Banner.css'
 
-function Banner() {
+function Banner(props) {
+  const { tagline, imageClass } = props
+
   return (
-    <div className="banner">
-      <h1 className="tagline">Chez vous, partout et ailleurs</h1>
-      {/* <h1>
-        <img src={logo} alt="a" className="logo" />
-        sa
-      </h1> */}
+    <div className={`banner ${imageClass}`}>
+      {tagline && <h1 className="tagline">{tagline}</h1>}
     </div>
   )
+}
+
+Banner.defaultProps = {
+  tagline: '',
+  imageClass: '',
+}
+
+Banner.propTypes = {
+  tagline: PropTypes.string,
+  imageClass: PropTypes.string,
 }
 
 export default Banner

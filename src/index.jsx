@@ -7,27 +7,53 @@ import {
   Link,
 } from 'react-router-dom'
 import Home from './pages/Home'
-import AboutUs from './pages/AboutUs'
+import About from './pages/About'
 import Housing from './pages/Housing'
 import NoMatch from './pages/NoMatch'
+import Header from './components/Header'
+import Footer from './components/Footer'
 import './styles/index.css'
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Home />,
+    element: (
+      <>
+        <Header />
+        <Home />
+        <Footer />
+      </>
+    ),
   },
   {
     path: 'a-propos',
-    element: <AboutUs />,
+    element: (
+      <>
+        <Header />
+        <About />
+        <Footer />
+      </>
+    ),
   },
   {
     path: 'logement/:id',
-    element: <Housing />,
+    element: (
+      <>
+        <Header />
+        <Housing />
+        <Footer />
+      </>
+    ),
   },
   {
     path: '*',
-    element: <NoMatch />,
+    element: (
+      <>
+        <Header />
+        <NoMatch />
+        <Footer />
+      </>
+    ),
   },
 ])
 

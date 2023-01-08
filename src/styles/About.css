@@ -1,0 +1,19 @@
+.about {
+    width: 100%;
+    margin-bottom: 170px;
+}
+
+@media (min-width: 576px) { }
+
+@media (min-width: 768px) { }
+
+@media (min-width: 992px) { }
+
+@media (min-width: 1200px) {
+    .about {
+        padding-left: 109px;
+        padding-right: 109px;
+    }
+}
+
+@media (min-width: 1400px) { }

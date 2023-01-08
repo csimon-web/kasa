@@ -1,0 +1,20 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+import PropTypes from 'prop-types'
+
+function HousingCard({ housing }) {
+  return (
+    <Link to={`/logement/${housing.id}`} className="housing_card">
+      <div className="housing_card__title">{housing.title}</div>
+    </Link>
+  )
+}
+
+HousingCard.propTypes = {
+  housing: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+  }).isRequired,
+}
+
+export default HousingCard

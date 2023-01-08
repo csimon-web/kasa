@@ -1,0 +1,37 @@
+.nomatch_title {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 288px;
+    line-height: 411px;
+    text-align: center;
+    color: #FF6060;
+}
+
+.nomatch_description {
+    margin: 0;
+    margin-bottom: 182px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 51px;
+    text-align: center;
+    color: #FF6060;
+}
+
+.nomatch_link_paragraph {
+    margin-bottom: 160px;
+    text-align: center;
+}
+
+.nomatch_link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FF6060;
+}

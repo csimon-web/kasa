@@ -1,13 +1,12 @@
-import housingsData from '../../data/housingsList.json'
+import housingsData from '../../data/housingsData.json'
+import HousingCard from '../HousingCard'
 import '../../styles/HousingsList.css'
 
 function Housingslist() {
   return (
     <section className="housings_section">
       {housingsData.map((housing) => (
-        <div className="housing_card" key={housing.id}>
-          <div className="housing_card__title">{housing.title}</div>
-        </div>
+        <HousingCard housing={housing} key={housing.id} />
       ))}
     </section>
   )
