@@ -48,6 +48,8 @@
 }
 
 .housing_tag_name {
+    margin-left: 5px;
+    margin-right: 5px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -134,12 +136,14 @@
     }
 
     .housing_tag {
-        width: 115px;
+        min-width: 115px;
         height: 25px;
         border-radius: 10px;
     }
 
     .housing_tag_name {
+        margin-left: 10px;
+        margin-right: 10px;
         font-size: 14px;
         line-height: 20px;
     }
