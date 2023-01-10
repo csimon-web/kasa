@@ -3,37 +3,7 @@
   flex-direction: column;
 }
 
-.housing_card {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  width: 100%;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  padding: 20px;
-  background: #ff6060 linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
-}
-
-.housing_card:before {
-  content: '';
-  display: inline-block;
-  padding: 50% 0;
-}
-
-.housing_card__title {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 26px;
-  color: #ffffff;
-}
-
-
 @media (min-width: 576px) {
-  .housings_section {}
-  .housing_card {}
-  .housing_card__title {}
 }
 
 @media (min-width: 768px) {
@@ -45,18 +15,9 @@
     border-radius: 10px;
     background: #f7f7f7;
   }
-  .housing_card {
-    width: 48%;
-  }
-  .housing_card__title {}
 }
 
 @media (min-width: 992px) {
-  .housings_section {}
-  .housing_card {
-    width: 30%;
-  }
-  .housing_card__title {}
 }
 
 @media (min-width: 1200px) {
@@ -66,14 +27,7 @@
     margin-bottom: 43px;
     padding: 56px 50px 6px 50px;
   }
-  .housing_card {
-    margin-bottom: 50px;
-  }
-  .housing_card__title {}
 }
 
 @media (min-width: 1400px) {
-  .housings_section {}
-  .housing_card {}
-  .housing_card__title {}
 }

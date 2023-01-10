@@ -22,7 +22,7 @@ function Accordion(props) {
         <i className={`fas fa-chevron-${showDescription ? 'up' : 'down'}`} />
       </button>
       {showDescription && (
-        <p className="accordion_description">{description}</p>
+        <div className="accordion_description">{description}</div>
       )}
     </div>
   )
@@ -30,7 +30,7 @@ function Accordion(props) {
 
 Accordion.propTypes = {
   title: PropTypes.string.isRequired,
-  description: PropTypes.string,
+  description: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
 }
 
 Accordion.defaultProps = {

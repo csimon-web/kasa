@@ -25,9 +25,13 @@
 }
 
 .header__nav__nav_element {
-  /* text-decoration-line: underline; */
   color: #ff6060;
   margin-left: 10px;
+  text-decoration: none;
+}
+
+.header__nav__nav_element.active {
+  text-decoration: underline;
 }
 
 @media (min-width: 576px) {
