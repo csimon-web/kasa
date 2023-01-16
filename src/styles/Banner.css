@@ -9,10 +9,12 @@
 
 .banner.landscape-home-page {
   background: #000000 url(../assets/landscape-home-page.jpg);
+  background-position: center;
 }
 
 .banner.landscape-about-page {
   background: #000000 url(../assets/landscape-about-page.jpg);
+  background-position: center;
 }
 
 .tagline {
