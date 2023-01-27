@@ -41,12 +41,19 @@ To get a local copy up and running follow these simple steps.
 
 ### Installation
  
-1. Clone the repo
+1. Open a terminal
+
+2. Clone the repo
 ```sh
 git clone https://github.com/christophe-simon/kasa
 ```
 
-2. Install the dependencies
+3. Go to the kasa directory 
+```sh
+cd kasa
+```
+
+4. Install the dependencies
 ```sh
 npm install
 ```
@@ -140,14 +147,14 @@ Project Link: [https://github.com/christophe-simon/kasa](https://github.com/chri
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/christophe-simon/basic-readme-template.svg?style=flat-square
-[contributors-url]: https://github.com/christophe-simon/basic-readme-template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/christophe-simon/basic-readme-template.svg?style=flat-square
-[forks-url]: https://github.com/christophe-simon/basic-readme-template/network/members
-[stars-shield]: https://img.shields.io/github/stars/christophe-simon/basic-readme-template.svg?style=flat-square
-[stars-url]: https://github.com/christophe-simon/basic-readme-template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/christophe-simon/basic-readme-template.svg?style=flat-square
-[issues-url]: https://github.com/christophe-simon/basic-readme-template/issues
-[license-shield]: https://img.shields.io/github/license/christophe-simon/basic-readme-template.svg?style=flat-square
-[license-url]: https://github.com/christophe-simon/basic-readme-template/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/christophe-simon/kasa.svg?style=flat-square
+[contributors-url]: https://github.com/christophe-simon/kasa/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/christophe-simon/kasa.svg?style=flat-square
+[forks-url]: https://github.com/christophe-simon/kasa/network/members
+[stars-shield]: https://img.shields.io/github/stars/christophe-simon/kasa.svg?style=flat-square
+[stars-url]: https://github.com/christophe-simon/kasa/stargazers
+[issues-shield]: https://img.shields.io/github/issues/christophe-simon/kasa.svg?style=flat-square
+[issues-url]: https://github.com/christophe-simon/kasa/issues
+[license-shield]: https://img.shields.io/github/license/christophe-simon/kasa.svg?style=flat-square
+[license-url]: https://github.com/christophe-simon/kasa/blob/master/LICENSE.txt
 [product-screenshot]: docs/screenshot.jpg
