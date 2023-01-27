@@ -1,8 +1,58 @@
-# Getting Started with Create React App
+<!-- PROJECT SHIELDS -->
+<!--
+*** This template uses markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url]
 
-## Available Scripts
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Kasa app Screen Shot][product-screenshot]]
+
+This project was realized during my training as a javascript/react developer for a fictitious company wanting to create a web application dedicated to real estate rentals.
+
+This web application had to respect [a given mock up](https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p) and [particular coding guidelines](https://course.oc-static.com/projects/Front-End+V2/P9+React+1/Coding+guidelines+Kasa+FR.pdf).
+
+It had to be developed with React, React Router, and use the data about the rentals from a copy of a [given json file](https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P9+React+1/logements.json)
+
+
+### Built With
+
+- Markdown, Html, Css, Javascript
+- React
+- Git, Github
+- VS Code
+- Love :)
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+- Git
+- Npm
+
+### Installation
+ 
+1. Clone the repo
+```sh
+git clone https://github.com/christophe-simon/kasa
+```
+
+2. Install the dependencies
+```sh
+npm install
+```
+
+<!-- USAGE EXAMPLES -->
+## Usage
 
 In the project directory, you can run:
 
@@ -68,3 +118,36 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<!-- CONTACT -->
+## Contact
+
+Christophe Simon: [personnal website](https://www.csimon.info)
+
+Project Link: [https://github.com/christophe-simon/kasa](https://github.com/christophe-simon/kasa)
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+
+- This readme version is a simplified version of this [github repository](https://github.com/othneildrew/Best-README-Template) by Othneildrew
+- This readme version is a customized version of this [github repository](https://github.com/NicolasBrondin/basic-readme-template) by NicolasBrondin
+
+
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/christophe-simon/basic-readme-template.svg?style=flat-square
+[contributors-url]: https://github.com/christophe-simon/basic-readme-template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/christophe-simon/basic-readme-template.svg?style=flat-square
+[forks-url]: https://github.com/christophe-simon/basic-readme-template/network/members
+[stars-shield]: https://img.shields.io/github/stars/christophe-simon/basic-readme-template.svg?style=flat-square
+[stars-url]: https://github.com/christophe-simon/basic-readme-template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/christophe-simon/basic-readme-template.svg?style=flat-square
+[issues-url]: https://github.com/christophe-simon/basic-readme-template/issues
+[license-shield]: https://img.shields.io/github/license/christophe-simon/basic-readme-template.svg?style=flat-square
+[license-url]: https://github.com/christophe-simon/basic-readme-template/blob/master/LICENSE.txt
+[product-screenshot]: docs/screenshot.jpg
