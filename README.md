@@ -7,7 +7,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-# Kasa: real estate rentals react project
+# Kasa: react real estate rentals project
 
 [![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url]
 
@@ -21,7 +21,9 @@ This project was realized during my training as a javascript/react developer for
 
 This web application had to respect [a given mock up](https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p) and [particular coding guidelines](https://course.oc-static.com/projects/Front-End+V2/P9+React+1/Coding+guidelines+Kasa+FR.pdf).
 
-It had to be developed with React, React Router, and use the data about the rentals from a copy of a [given json file](https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P9+React+1/logements.json)
+It had to be developed with React, React Router, and use the data about the rentals from a copy of a [given json file](https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P9+React+1/logements.json).
+
+You can have a look on this web application here: https://kasa.csimon.info/
 
 ### Built With
 
