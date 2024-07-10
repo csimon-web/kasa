@@ -7,7 +7,7 @@ function Slideshow({ pictures }) {
 
   const handlePreviousSlide = () => {
     setCurrentPictureIndex(
-      (currentPictureIndex - 1 + pictures.length) % pictures.length
+      (currentPictureIndex - 1 + pictures.length) % pictures.length,
     )
   }
 
@@ -29,6 +29,7 @@ function Slideshow({ pictures }) {
           }`}</p>
           <button
             type="button"
+            aria-label="Previous slide"
             onClick={handlePreviousSlide}
             className="previous_button"
           >
@@ -36,6 +37,7 @@ function Slideshow({ pictures }) {
           </button>
           <button
             type="button"
+            aria-label="Next slide"
             onClick={handleNextSlide}
             className="next_button"
           >
